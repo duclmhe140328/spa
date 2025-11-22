@@ -8,7 +8,7 @@ import {
 } from "@ant-design/icons";
 import dayjs from "dayjs";
 import customParseFormat from "dayjs/plugin/customParseFormat";
-import Customer_history_Detail_modal_consulations from "./customer_history_Detail_modal_consulations";
+import Customer_history_Detail_modal_consulations from "./Customer_history_Detail_modal_consulations";
 import useModal from "../../appointments/hooks/openmodal";
 
 // Extend dayjs with the custom parse format plugin

@@ -2,7 +2,7 @@ import React from "react";
 import { Row, Col, Button, Divider } from "antd";
 import { useNavigate } from "react-router-dom";
 import { ArrowRightOutlined } from "@ant-design/icons";
-import styles from "../styles/Home_about.module.scss"; // Import SCSS module
+import styles from "../Styles/Home_about.module.scss"; // Import SCSS module
 import anh4 from "../../../assets/images/image4.png";
 import anh4_1 from "../../../assets/images/anh4_1.jpg";
 

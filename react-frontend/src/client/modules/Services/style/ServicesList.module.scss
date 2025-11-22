@@ -1,0 +1,93 @@
+.boxServicesItem {
+    border-radius: 10px;
+
+    padding: 15px;
+
+    box-sizing: border-box;
+    margin-bottom: 20px;
+
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2), 0 1px 3px rgba(0, 0, 0, 0.08);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.boxServicesItem:hover {
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2), 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.boxServicesItem img {
+    border-radius: 10px;
+    border: none;
+}
+
+.boxServicesItemBottom {
+    width: 100%;
+    height: 70px;
+    padding: 15px;
+}
+
+.boxServicesItemBottom p {
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    margin: 0;
+}
+
+.boxServicesList {
+    width: 100%;
+    // min-height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.boxServicesItemTop img {
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+    padding: 50px;
+}
+
+.boxTitleServicesTop {
+    text-align: center;
+    h1 {
+        color: black;
+        font-size: 40px;
+        font-family: Arial, sans-serif;
+        font-weight: 500;
+    }
+}
+.cardServices {
+    transition: transform 0.3s ease;
+    width: 100%;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; // Giới hạn văn bản ở 1 dòng
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis; // Thêm dấu "..."
+    transition: all 0.3s ease;
+    font-weight: 500;
+}
+
+.cardServices.active {
+    color: rgb(255, 255, 255);
+    background-color: rgb(224, 82, 101);
+    border-color: rgb(224, 82, 101);
+}
+.noServices {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.cardServicesTitle {
+    min-height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cardServices:hover {
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2), 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}

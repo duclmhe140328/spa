@@ -21,7 +21,7 @@ import useCustomerActions from "../../modules/Customer/hooks/useCustomerActions"
 import { useParams } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import { useSelector } from "react-redux";
-import Customer_history_consulations from "../../modules/Customer/compoment/Customer_history_consulations";
+import Customer_history_consulations from "../../modules/Customer/compoment/customer_history_consulations";
 console.log(style);
 
 const { Title, Text } = Typography;

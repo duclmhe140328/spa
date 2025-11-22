@@ -1,7 +1,7 @@
 import React from "react";
 import { Col, Row } from "antd";
 import anh5 from "../../../assets/images/anh5.png";
-import styles from "../styles/HomeQuote.module.scss";
+import styles from "../Styles/HomeQuote.module.scss";
 
 const statistics = [
     { id: "1", number: "200+", description: "Khách hàng mỗi ngày" },

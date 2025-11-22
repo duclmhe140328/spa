@@ -2,7 +2,7 @@ import Home from "../pages/Home";
 import Appbooking from "../pages/Booking";
 import BookingInfo from "../pages/Bookinginfo";
 import Pricingpage from "../pages/Pricingpage";
-import VideoCall from "../pages/VideoCall";
+import VideoCall from "../pages/Videocall";
 import Login from "../pages/Login";
 import Register from "../pages/Register";
 import Services from "../pages/Services";

@@ -7,7 +7,7 @@ import {
     PhoneOutlined,
 } from "@ant-design/icons";
 import clsx from "clsx"; // Import clsx
-import styles from "../styles/ConsultingFrom.module.scss";
+import styles from "../Styles/ConsultingFrom.module.scss";
 import useContactActions from "../../../../admin/modules/contact/hooks/usecontact";
 import { useSelector } from "react-redux";
 import useServicesActions from "../../../../admin/modules/services/hooks/useServices";

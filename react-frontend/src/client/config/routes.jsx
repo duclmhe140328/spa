@@ -1,6 +1,6 @@
 import Home from "../pages/Home";
 import Appbooking from "../pages/Booking";
-import BookingInfo from "../pages/BookingInfo";
+import BookingInfo from "../pages/Bookinginfo";
 import Pricingpage from "../pages/Pricingpage";
 import VideoCall from "../pages/VideoCall";
 import Login from "../pages/Login";

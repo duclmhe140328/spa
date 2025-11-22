@@ -1,7 +1,7 @@
 import React from "react";
 import Slider from "react-slick";
 import { Card, Row, Col, Button, Divider } from "antd";
-import styles from "../styles/HomeDoctor.module.scss";
+import styles from "../Styles/HomeDoctor.module.scss";
 
 const { Meta } = Card;
 

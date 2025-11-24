@@ -60,34 +60,6 @@ const FooterComponents = () => {
                             </div>
                             <p>Số 45 ngõ 182 Phú Diễn, Hà Nội</p>
                         </div>
-                        <div className={style.boxLocationItem}>
-                            <div className={style.boxLocationItemName}>
-                                <img src={pin} alt="" />
-                                <h3>TP.HCM</h3>
-                            </div>
-                            <p>31/3 Điện Biên Phủ, Phường 15, Quận Bình Thạnh.</p>
-                        </div>
-                        <div className={style.boxLocationItem}>
-                            <div className={style.boxLocationItemName}>
-                                <img src={pin} alt="" />
-                                <h3>Bến Tre</h3>
-                            </div>
-                            <p>Võ Nguyên Giáp QL60, Ấp 1, Bến Tre, Việt Nam</p>
-                        </div>
-                        <div className={style.boxLocationItem}>
-                            <div className={style.boxLocationItemName}>
-                                <img src={pin} alt="" />
-                                <h3>Phú Quốc</h3>
-                            </div>
-                            <p>D. Đông - Cửa Cạn, TT. Dương Đông, Phú Quốc, Kiên Giang, Việt Nam</p>
-                        </div>
-                        <div className={style.boxLocationItem}>
-                            <div className={style.boxLocationItemName}>
-                                <img src={pin} alt="" />
-                                <h3>Sóc Trăng</h3>
-                            </div>
-                            <p>70-128 Nguyễn Trung Trực, Phường 2, Sóc Trăng, Việt Nam</p>
-                        </div>
                     </div>
                     <div className={style.boxRight}>
                         <div className={style.boxPolicyName}>

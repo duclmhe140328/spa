@@ -28,19 +28,19 @@ const FooterComponents = () => {
                     <div className={style.boxLeft}>
                         <div className={style.boxTitle}>
                             <img src={logo} alt="" />
-                            <h1>Sakura Spa</h1>
+                            <h1>Trung tâm chăm sóc sức khỏe cơ xương khớp Hồng Liêm</h1>
                         </div>
                         <div className={style.boxContent}>
-                            <h3>CÔNG TY CỔ PHẦN THẨM MỸ SAKURA SPA</h3>
+                            <h3>Trung tâm chăm sóc sức khỏe cơ xương khớp Hồng Liêm</h3>
                             <p className={style.boxBusinessNumber}>Giấy Chứng Nhận Đăng Ký Kinh Doanh Số: 0229385112</p>
 
                             <div className={style.boxContact}>
                                 <img src={telephone} alt="" />
-                                <p>1600 2407</p>
+                                <p>0944 862 786</p>
                             </div>
                             <div className={style.boxContact}>
                                 <img src={mail} alt="" />
-                                <p>sakuraspa2025@gmail.com</p>
+                                <p>nangmai29ktt@gmail.com</p>
                             </div>
                         </div>
                         {/* <div className={style.boxSocial}>
@@ -56,9 +56,9 @@ const FooterComponents = () => {
                         <div className={style.boxLocationItem}>
                             <div className={style.boxLocationItemName}>
                                 <img src={pin} alt="" />
-                                <h3>Cần Thơ</h3>
+                                <h3>Hà Nội</h3>
                             </div>
-                            <p>14B1 Trương Vĩnh Nguyên, Thường Thạnh, Cái Răng, Cần Thơ</p>
+                            <p>Số 45 ngõ 182 Phú Diễn, Hà Nội</p>
                         </div>
                         <div className={style.boxLocationItem}>
                             <div className={style.boxLocationItemName}>

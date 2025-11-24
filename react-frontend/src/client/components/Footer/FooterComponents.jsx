@@ -60,6 +60,28 @@ const FooterComponents = () => {
                             </div>
                             <p>Số 45 ngõ 182 Phú Diễn, Hà Nội</p>
                         </div>
+                        <div className={style.boxLocationItem}>
+                            <div className={style.boxLocationItemName}>
+                                <img src={pin} alt="" />
+                                <h3>Sóc Trăng</h3>
+                            </div>
+                            <p>70-128 Nguyễn Trung Trực, Phường 2, Sóc Trăng, Việt Nam</p>
+                        </div>
+                        <div className={style.mapWrapper}>
+  <h3>Bản đồ đường đi (Hà Nội)</h3>
+  <div className={style.mapIframeWrapper}>
+    <iframe
+      title="Bản đồ Hà Nội - Trung tâm Hồng Liêm"
+      src={`https://www.google.com/maps?q=${encodeURIComponent(
+        "Số 45 ngõ 182 Phú Diễn, Bắc Từ Liêm, Hà Nội"
+      )}&output=embed`}
+      loading="lazy"
+      referrerPolicy="no-referrer-when-downgrade"
+      allowFullScreen
+    />
+  </div>
+</div>
+
                     </div>
                     <div className={style.boxRight}>
                         <div className={style.boxPolicyName}>
